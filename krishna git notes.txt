@@ -1,0 +1,29 @@
+git config --global user.name 'krishna'
+$ git config --global   user.email  "vamsidevops49@gmail.com"   for see which persion added git config --global --list
+user.name=ramsyam
+user.email=ramsyam2423@gmail.com
+git init
+git add f1    untracked to tracked
+git status
+git rm --cached f1 tracked to utracked
+or
+git reset f1
+git commit -m 'meaning'
+git remote add origin url
+git push
+too see list of commits git log name and author or message
+or git oneline
+
+brnching statagy
+git branch to see the branches
+git branch k1   for ceating branch
+git checkout k1 to move to k1 branch
+git branch --delete k1 for delating branch
+git merge branch name for mergeing the one branch to another branch
+
+
+git push --all -u  (How to all push local branches to remote repository)
+
+git push -u origin test1 (to push single local branch to remote repository)
+
+git push origin --delete branchname (How to delete a branch in remote repository from local)
