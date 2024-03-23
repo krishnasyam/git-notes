@@ -1,0 +1,11 @@
+then youll get file and folder from remote repo
+vi home.txt
+add something
+git log --online master origin/maim origin/head
+git add. 
+git commit -m add one file
+from remote repo you have upload a filr from remote repo
+we have to option git fetch and git pull
+git fetch origin just changes ni vastayee
+ls you cant see the file
+git branch -a 
